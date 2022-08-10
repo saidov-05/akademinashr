@@ -136,6 +136,8 @@ body {
     width: 80px;
     height: 3px;
     border: none;
+    margin: 0;
+    margin-bottom: 40px;
     background-color: #ff7500;
 }
 
@@ -155,8 +157,7 @@ body {
 .hero-img {
     width: 510px;
     height: 510px;
-    border-radius: 8px;
-    box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6);
+    border-radius: 8px
 }
 
 .features {
@@ -220,6 +221,7 @@ body {
 }
 
 .promo-inner {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -259,10 +261,13 @@ body {
 }
 
 .promo-img {
+    position: absolute;
     width: 440px;
     height: 440px;
+    left: 53%;
+    top: -16%;
+    background: url(image.png);
     border-radius: 12px;
-    object-fit: cover;
 }
 
 .site-footer { 

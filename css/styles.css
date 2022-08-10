@@ -93,6 +93,7 @@ body {
     text-decoration: none;
     transition: color 0.4s ease,
         opasity 0.4s ease;
+    color: black;    
 }
 
 .sitenav-link:hover {

@@ -65,15 +65,27 @@ body {
     margin: 0;
     margin-right: 32px;
     list-style: none;
+    position: relative;
 }
 
-.sitenav-list-orange-line {
+/* .sitenav-item {
     position: relative;
     width: 92px;
     height: 3px;
     left: 92px;
     top: 19.5px;
     background:#ff7500
+} */
+
+.sitenav-list .sitenav-item:hover .sitenav-link::after{
+    content: '';
+    position:absolute;
+    background-color: #ff7500;
+    bottom: 0;
+    height: 2.5px;
+    width: 80px;
+    left: 1.9%;
+
 }
 
 .sitenav-item {
